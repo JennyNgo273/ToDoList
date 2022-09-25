@@ -2,12 +2,9 @@
 
 Dark Theme: ![screenshot/dark.PNG](https://github.com/JennyNgo273/ToDoList/blob/2f892c72ea5387cd8c9f05d1beedc54f35b7ed58/ToDoList-master/public/img/screencapture-localhost-3000-2022-09-24-20_56_08.png) <br/>
 
-White Theme: ![screenshot/white.PNG](https://github.com/JennyNgo273/elearning/blob/73281a07f14f7c07d53e0e13fadba7e7fe089ebf/screenshot/white.PNG)
+Light Theme: ![screenshot/white.PNG](https://github.com/JennyNgo273/ToDoList/blob/78b6b178d848d3f2012b28f2f9eb8c765173fa65/ToDoList-master/public/img/screencapture-localhost-3000-2022-09-24-20_56_47.png)
 
-<!-- ![screenshot/screencapture-jennyngo273-github-io-elearning-2021-09-17-23_59_47.png](https://github.com/JennyNgo273/elearning/blob/230486d75338551ce7572eca947f305c8b012aca/screenshot/screencapture-jennyngo273-github-io-elearning-2021-09-17-23_59_47.png) -->
-
-
-<!-- ![screenshots/Housing-img.PNG](https://github.com/JennyNgo273/Housing-ws/blob/9e49f3adbaa46679bd59bb906ca57a95db22cb14/screenshots/Housing-img.PNG) -->
+Primary Theme: ![screenshot/primary.PNG](https://github.com/JennyNgo273/ToDoList/blob/78b6b178d848d3f2012b28f2f9eb8c765173fa65/ToDoList-master/public/img/screencapture-localhost-3000-2022-09-24-20_57_00.png)
 
 # Folder and file structure
 ```bash
