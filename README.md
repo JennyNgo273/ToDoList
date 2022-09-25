@@ -9,79 +9,68 @@ Primary Theme: ![screenshot/primary.PNG](https://github.com/JennyNgo273/ToDoList
 # Folder and file structure
 ```bash
 ./
-├── README.md
-├── index.html
-├── css                                
-│   ├── main.css                             
-│   │── main.css.map
-│   │── owl.carousel.min.css
-│   │── owl.theme.default.min.css 
-│   
-│
-│
-├── images/                                      * image sources  
+├── build/
+├── node_modules/
+├── public/                                
+│   └── img/                              
 │                                 
-├── js                                           * source js
-│   ├── main.js                                  
-│   │── owl.carousel.js                          * minified owl carousel js
-│   │── owl.carousel.min.js
-│                          
-├── sass/                                        * sass preprocessor styles
-│   ├── Base/                           
-│   │    │── customize.scss
-│   │    └── reset.scss
-│   ├── Components/
-│   │    │── button.scss
-│   │    └── card.scss
-│   │    └── cover.scss
-│   ├── Helpers/                                 * mixins and vars
-│   │    │── extend.scss
-│   │    └── mixin.scss
-│   │    └── variables.scss
-│   ├── Layouts/
-│   │    │── banner.scss
-│   │    └── categories.scss
-│   │    └── course.scss
-│   │    └── footer.scss
-│   │    └── header.scss
-│   │    └── intro.scss
-│   │    └── jobs.scss
-│   │    └── sidebarMini.scss
-│   │    └── student.scss
-│   │    └── viewing.scss
-│   ├── Pages/
-│   │    │── home.scss
-│   ├── Theme/
-│   │    │── buttonDark.scss
-│   │    └── cardDark.scss
-│   │    └── categoriesDark.scss
-│   │    └── courseDark.scss
-│   │    └── footerDark.scss
-│   │    └── headerDark.scss
-│   │    └── jobsDark.scss
-│   │    └── partnersDark.scss
-│   │    └── resetDark.scss
-│   │    └── sidebarMiniDark.scss
-│   │    └── studentsDark.scss
-│   │ 
-│   └── main.scss
+├── src/                                          
+│   ├── Components/                           
+│   │    │── Button.js
+│   │    │── Container.js
+│   │    │── Dropdown.js
+│   │    │── Heading.js
+│   │    │── Link.js
+│   │    │── Table.js
+│   │    └── TestField.js
+│   │
+│   │── Container
+│   │    └── Container.js
+│   │
+│   ├── Redux
+│   │    │── actions/
+│   │    │    └── actions.js
+│   │    │── reducers/
+│   │    │    │── rootReducer.js
+│   │    │    └── ToDoListReducer.js
+│   │    └── types/
+│   │         └── Types.js
+│   │
+│   ├── StyledComponent
+│   │    └── ToDoList/
+│   │         └── ToDoList.js
+│   │
+│   ├── Themes/                           
+│   │    │── DarkTheme.js
+│   │    │── LightTheme.js
+│   │    │── PrimaryTheme.js
+│   │    │── ThemeMain.js
+│   │
+│   │
+│   └──App.js
+│   └──App.css
 │
-└── screenshots/                               * responsive test screenshots
+│
+└──package.json
 ```
 
 
 # Live demo
-🔗 [Elearning Home page](https://jennyngo273.github.io/elearning/)
+🔗 [To Do List App](https://jennyngo273.github.io/ToDoList/)
 
-# Technology
+# Set up
+```bash
+npm install
+```
 <ul>
-  <li>Owl carousel: Responsive carousel slider</li>
-  <li>Font Awesome: Icon Library</li>
-  <li>Font Google</li>
+  <li>Download source code</li>
+  <li>Open package.json in Intergrated Terminal</li>
+  <li>And run the code above</li> 
 </ul>
 
 # Build With
-- Bootstrap v5.1.0
+- React Js
 - JavaScript
+- Bootstrap v5.1.0
 - HTML5
 - CSS3
